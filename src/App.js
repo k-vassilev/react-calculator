@@ -24,6 +24,9 @@ const App = () => {
 	return (
 		<>
 			<div className="container">
+				<div className="top">
+					<h2 clasName="author">by K. Vassilev</h2>
+				</div>
 				<form>
 					<input type="text" value={result} />
 				</form>

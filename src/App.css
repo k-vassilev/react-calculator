@@ -18,9 +18,11 @@ body {
 	margin: 0, auto;
 	width: 256px;
 	text-align: center;
-	border: 10px solid black;
-	background-color: black;
+	border: 10px solid #767382;
+	background-color: #cfd6d9;
 	border-radius: 5px;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
 }
 
 .keypad {
@@ -32,9 +34,9 @@ body {
 input[type="text"] {
 	height: 75px;
 	width: 248px;
-	background-color: black;
+	background-color: #cce7d3;
 	border: 0px;
-	color: white;
+	color: #778490;
 	text-align: right;
 	font-weight: 500;
 	letter-spacing: 1px;
@@ -61,8 +63,8 @@ button {
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
-	background: grey;
-	color: white;
+	background: #f5f6f4;
+	color: #222123;
 	font-weight: 500;
 }
 
@@ -74,5 +76,20 @@ button:active {
 }
 
 .hightlight {
-	background: teal;
+	background: #747997;
+	color: #f5f6f4;
 }
+
+#result, #backspace, #clear{
+		color: #f5f6f4
+}
+
+.top{
+	height: 50px;
+}
+
+h2{
+	font-weight: 400;
+	font-style: italic;
+}
+
